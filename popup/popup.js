@@ -12,7 +12,7 @@ function listenForClicks() {
             }
             
             doi = doi.substring(firstDigit)
-            let url = "http://doi-org.proxy.library.vanderbilt.edu/" + doi
+            let url = "https://doi-org.riken.idm.oclc.org/" + doi
             browser.tabs.create({
                 "url": url
             });
